@@ -1,4 +1,3 @@
-// src/components/navbar.tsx
 import { NavLink } from "react-router-dom";
 
 export function Navbar() {
@@ -7,8 +6,7 @@ export function Navbar() {
       <div className="container mx-auto px-6 py-3 flex gap-6">
         <NavItem to="/lab-1" text="Лабораторна 1" />
         <NavItem to="/lab-2" text="Лабораторна 2" />
-
-        {/* <NavItem to="/lab-3" text="Лабораторна 3" /> */}
+        <NavItem to="/lab-3" text="Лабораторна 3" />
       </div>
     </nav>
   );
